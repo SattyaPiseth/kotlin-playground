@@ -83,8 +83,9 @@ Always output exactly these sections in this order.
 3. Do not accept `!!` in final code.
 4. Do not leave invalid input behavior ambiguous.
 5. Do not use Java-style control flow when expression style is possible.
-6. Remove TODOs and commented scaffolding from final code.
-7. Keep comments minimal and signal-focused.
+6. Remove only tutorial or commented scaffolding from final code.
+7. Preserve minimal KDoc when it documents thrown exceptions, input constraints, domain rules, or public contract behavior.
+8. Keep all remaining comments minimal and signal-focused.
 
 ## Formatting Rules
 
