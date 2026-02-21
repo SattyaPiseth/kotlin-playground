@@ -19,8 +19,8 @@ class E04DiscountCalculatorTest {
     }
 
     @Test
-    fun finalPrice_appliesBronzeDiscount() {
-        assertEquals(95.0, finalPrice(100.0, Membership.BRONZE), 1e-9)
+    fun finalPrice_appliesSilverDiscount() {
+        assertEquals(90.0, finalPrice(100.0, Membership.SILVER), 1e-9)
     }
 
     @Test
