@@ -45,10 +45,11 @@ Always output exactly these sections in this order.
 - Mention at least one expression-style improvement and one safety improvement.
 - Reference exact problematic constructs from student code.
 
-#### Quiz Me (2 questions)
+#### Quiz Me (5 questions)
 
-- Add a `Quiz Me` subsection immediately after Explanation.
-- Ask exactly 2 short Kotlin questions based on the current mistakes.
+- Write quiz questions to `01-basics/src/main/kotlin/sattya/piseth/quiz/<Exercise>_Quiz.md`.
+- Ask exactly 5 short Kotlin questions based on the current mistakes.
+- In the response, include only the quiz file path (do not inline the questions).
 - Do not answer the questions unless the user explicitly asks for answers.
 
 ### 3) Test plan (6 cases + expected outputs)
