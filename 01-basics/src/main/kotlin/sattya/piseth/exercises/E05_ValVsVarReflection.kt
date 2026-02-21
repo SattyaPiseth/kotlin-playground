@@ -14,5 +14,9 @@ package sattya.piseth.exercises
  * - Use type inference at least once (no explicit type)
  */
 fun valVsVarDemo(): String {
-    TODO("Implement and return summary string")
+    val fixedNumber = 3.14
+    var mutableNumber = 1.5
+    mutableNumber = 5.0
+
+    return "val=$fixedNumber, var=$mutableNumber"
 }

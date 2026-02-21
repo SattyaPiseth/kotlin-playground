@@ -1,16 +1,14 @@
 package sattya.piseth.exercises
 
+/**
+ * Returns the greater of the two given integers.
+ *
+ * Uses Kotlin expression-style `if` for conciseness.
+ *
+ * @param a first integer to compare
+ * @param b second integer to compare
+ * @return the larger of a and b
+ */
 
-    /**
-     * Goal: use `if` as expression.
-     * Rules:
-     * - No `var`
-     * - Return max of two numbers
-     */
-
-//     Hint: return if (condition) value1 else value2
-
-fun maxOfTwo(a: Int, b: Int): Int{
-//    TODO("Implement using: return if (...) ... else ...")
-    return if (a > b) a else b
-}
+fun maxOfTwo(a: Int, b: Int): Int =
+    if (a > b) a else b

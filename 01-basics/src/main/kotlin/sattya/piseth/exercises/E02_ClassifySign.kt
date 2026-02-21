@@ -1,12 +1,31 @@
 package sattya.piseth.exercises
 
 /**
- * Goal: use `when` as expression (condition-style recommended).
- * Return:
- * - "NEGATIVE" if number < 0
- * - "ZERO" if number == 0
- * - "POSITIVE" otherwise
+ * Returns the sign classification of the given number.
+ *
+ * Uses expression body syntax for conciseness.
+ *
+ * @param number the integer to classify
+ * @return "NEGATIVE" if number < 0,
+ *         "ZERO" if number == 0,
+ *         otherwise "POSITIVE"
  */
-fun classifySign(number: Int): String {
-    TODO("Implement using when { } and expression style")
-}
+
+/**
+ * Demonstrates expression body syntax.
+ *
+ * In Kotlin, when a function consists of a single expression,
+ * the `return` keyword and braces can be omitted.
+ *
+ * Example:
+ * `fun function(...) = expression`
+ */
+
+fun classifySign(number: Int): String =
+//    TODO("Implement using when { } and expression style")
+   when{
+        number < 0 -> "NEGATIVE"
+        number == 0 -> "ZERO"
+        else -> "POSITIVE"
+   }
+
