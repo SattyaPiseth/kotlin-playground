@@ -200,3 +200,57 @@ Module 01 prepared me to:
 -   Build a foundation for Kotlin's type system
 
 Next: **Types & Smart Casts**
+
+## E01 — Max of Two
+
+- Keep this as one expression; don’t expand to mutable/block style.
+- Always include equality case in comparison tests.
+- Always include integer boundary checks.
+- Keep the function pure and deterministic.
+- Add minimal KDoc only if contract complexity grows.
+- Keep naming aligned with problem statement.
+
+## E02 — Classify Sign
+
+- Remove tutorial blocks once function is complete.
+- Keep `when` formatting idiomatic and consistent.
+- Preserve expression-body style for simple classification.
+- Include both typical and boundary integer tests.
+- Keep output vocabulary consistent (`NEGATIVE/ZERO/POSITIVE`).
+- Prefer minimal, contract-level comments only.
+
+## E03 — Pass or Fail
+
+- Define valid domain upfront for numeric APIs.
+- Don’t leave out-of-range behavior implicit.
+- Prefer expression-style branching over multi-step mutable flow.
+- Document exception behavior when it is part of contract.
+- Include invalid-input tests in the initial test set.
+- Keep PASS/FAIL threshold explicit and tested at boundary.
+
+## E04 — Discount Calculator
+
+- Keep enum-based discount modeling; avoid stringly-typed tiers.
+- Always define invalid money input behavior explicitly.
+- Include precision tolerance in floating-point assertions.
+- Add at least one invalid-input test from the start.
+- Keep discount logic immutable and transparent.
+- Ensure documentation mentions constraints and exceptions.
+
+## E05 — Val vs Var Reflection
+
+- Keep `var` only where mutation is the point of the exercise.
+- Remove tutorial prose from final source.
+- Keep result shape deterministic for easy assertions.
+- Use expression style even in demonstration functions.
+- Test both positive expectations and “must not contain” conditions.
+- Keep comments minimal and contract-focused.
+
+## E06 — Top-Level and Inference
+
+- Define invalid-input behavior for user-facing text functions.
+- Keep top-level functions concise and expression-based.
+- Normalize input when output should be user-friendly.
+- Keep KDoc minimal but include constraints/exceptions.
+- Don’t leave blank/whitespace behavior implicit.
+- Include both valid formatting and invalid-input tests.
