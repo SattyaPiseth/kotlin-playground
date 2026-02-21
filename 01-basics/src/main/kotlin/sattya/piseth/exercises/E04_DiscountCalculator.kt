@@ -1,19 +1,24 @@
 package sattya.piseth.exercises
 
-
-/**
- * Calculates the final price after applying membership discount.
- *
- * @param price original price before discount
- * @param membership membership tier used to determine discount rate
- * @return price after discount is applied
- */
 enum class Membership { GOLD, SILVER, BRONZE, NONE }
 
-fun finalPrice(price: Double, membership: Membership): Double =
-    price - (price * when (membership) {
+/**
+ * Returns the final price after applying the membership discount.
+ *
+ * @param price original price (must be finite and non-negative)
+ * @param membership membership tier determining discount rate
+ * @return discounted price
+ * @throws IllegalArgumentException if price is negative or not finite
+ */
+fun finalPrice(price: Double, membership: Membership): Double {
+    require(price.isFinite() && price >= 0.0) { "price must be finite and non-negative" }
+
+    val discountRate = when (membership) {
         Membership.GOLD -> 0.20
         Membership.SILVER -> 0.10
         Membership.BRONZE -> 0.05
         Membership.NONE -> 0.0
-    })
+    }
+
+    return price * (1 - discountRate)
+}
