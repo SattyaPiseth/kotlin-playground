@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleMigrationSettings" migrationVersion="1" />
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="gradleHome" value="" />
+        <option name="gradleJvm" value="#JAVA_HOME" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/01-basics" />
+            <option value="$PROJECT_DIR$/02-types" />
+            <option value="$PROJECT_DIR$/03-null-safety" />
+            <option value="$PROJECT_DIR$/04-lambdas-hof" />
+            <option value="$PROJECT_DIR$/05-collections-ops" />
+            <option value="$PROJECT_DIR$/06-classes-constructors-properties" />
+            <option value="$PROJECT_DIR$/07-data-classes" />
+            <option value="$PROJECT_DIR$/08-java-interop" />
+            <option value="$PROJECT_DIR$/09-extensions" />
+            <option value="$PROJECT_DIR$/10-generics" />
+            <option value="$PROJECT_DIR$/11-sealed" />
+            <option value="$PROJECT_DIR$/12-visibility" />
+            <option value="$PROJECT_DIR$/13-objects-companions" />
+            <option value="$PROJECT_DIR$/14-delegation" />
+            <option value="$PROJECT_DIR$/15-coroutines" />
+            <option value="$PROJECT_DIR$/16-dsls" />
+            <option value="$PROJECT_DIR$/17-delegation-deep-dive" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>
