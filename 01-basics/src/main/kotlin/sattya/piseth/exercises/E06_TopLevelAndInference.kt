@@ -1,11 +1,14 @@
 package sattya.piseth.exercises
 
-
 /**
- * Goal: top-level functions + type inference.
+ * Returns a greeting for a non-blank name.
  *
- * Task:
- * - Write a top-level function that returns a greeting message.
- * - It must use expression body syntax ( = "..." )
+ * @param name person name, must not be blank
+ * @return greeting in the format "Hello, <name>"
+ * @throws IllegalArgumentException if name is blank
  */
-    fun greet(name: String) = "Hello, $name"
+fun greet(name: String) =
+    when {
+        name.isBlank() -> throw IllegalArgumentException("name must not be blank")
+        else -> "Hello, ${name.trim()}"
+    }

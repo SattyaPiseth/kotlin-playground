@@ -11,16 +11,6 @@ package sattya.piseth.exercises
  *         otherwise "POSITIVE"
  */
 
-/**
- * Demonstrates expression body syntax.
- *
- * In Kotlin, when a function consists of a single expression,
- * the `return` keyword and braces can be omitted.
- *
- * Example:
- * `fun function(...) = expression`
- */
-
 fun classifySign(number: Int): String =
     when {
         number < 0 -> "NEGATIVE"
