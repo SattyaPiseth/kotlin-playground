@@ -1,0 +1,4 @@
+interface:
+  display_name: "Kotlin Module 01 Coach"
+  short_description: "Strict coach for Kotlin Module 01 drills"
+  default_prompt: "Use $kotlin-module01-coach to review my Module 01 exercise and return refactor, explanation, tests, reflection, and one reusable rule."
