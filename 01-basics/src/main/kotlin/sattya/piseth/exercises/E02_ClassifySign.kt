@@ -22,10 +22,9 @@ package sattya.piseth.exercises
  */
 
 fun classifySign(number: Int): String =
-//    TODO("Implement using when { } and expression style")
-   when{
+    when {
         number < 0 -> "NEGATIVE"
         number == 0 -> "ZERO"
         else -> "POSITIVE"
-   }
+    }
 
