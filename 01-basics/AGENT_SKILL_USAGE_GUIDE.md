@@ -73,7 +73,7 @@ Every skill execution must return exactly six sections in order:
 Additionally:
 
 -   A **"Quiz Me" subsection** follows Explanation.
--   It contains exactly 2 short questions.
+-   It contains exactly 5 short questions.
 -   Questions are not answered unless explicitly requested.
 
 ------------------------------------------------------------------------
