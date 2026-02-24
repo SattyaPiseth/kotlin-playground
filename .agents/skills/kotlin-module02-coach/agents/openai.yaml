@@ -1,0 +1,4 @@
+interface:
+  display_name: "Kotlin Module 02 Coach"
+  short_description: "Guided coach for types and smart casts"
+  default_prompt: "Use $kotlin-module02-coach to guide me through a Module 02 exercise with concepts first, a small hint, then a review of my attempt."
