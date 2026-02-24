@@ -26,6 +26,6 @@ Create a simple discount calculator:
 Use `when` expression only.
 
 ## ✅ Completion Checklist
-- [ ] I can explain difference between `val` and `var`
-- [ ] I use `if` as expression naturally
-- [ ] I no longer write Java-style verbose Kotlin
+- [x] I can explain difference between `val` and `var`
+- [x] I use `if` as expression naturally
+- [x] I no longer write Java-style verbose Kotlin
