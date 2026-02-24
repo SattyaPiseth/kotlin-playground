@@ -23,6 +23,6 @@ Build a simple validator that:
 - Returns formatted string based on detected type
 
 ## ✅ Completion Checklist
-- [ ] I understand smart casts
-- [ ] I avoid manual casting
-- [ ] I can explain Kotlin type system basics
+- [x] I understand smart casts
+- [x] I avoid manual casting
+- [x] I can explain Kotlin type system basics
