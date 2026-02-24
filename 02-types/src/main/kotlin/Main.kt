@@ -1,16 +1,15 @@
 package sattya.piseth
 
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
-fun main() {
-    val name = "Kotlin"
-    //TIP Press <shortcut actionId="ShowIntentionActions"/> with your caret at the highlighted text
-    // to see how IntelliJ IDEA suggests fixing it.
-    println("Hello, " + name + "!")
+import sattya.piseth.exercises.addIntAndLong
+import sattya.piseth.exercises.describeAnyType
+import sattya.piseth.exercises.describeLengthCandidate
+import sattya.piseth.exercises.numericTypeName
+import sattya.piseth.exercises.validateAndFormat
 
-    for (i in 1..5) {
-        //TIP Press <shortcut actionId="Debug"/> to start debugging your code. We have set one <icon src="AllIcons.Debugger.Db_set_breakpoint"/> breakpoint
-        // for you, but you can always add more by pressing <shortcut actionId="ToggleLineBreakpoint"/>.
-        println("i = $i")
-    }
+fun main() {
+    println("E01 describeAnyType(42) = ${describeAnyType(42)}")
+    println("E02 describeLengthCandidate(\"Kotlin\") = ${describeLengthCandidate("Kotlin")}")
+    println("E03 addIntAndLong(10, 20L) = ${addIntAndLong(10, 20L)}")
+    println("E03 numericTypeName(3.14) = ${numericTypeName(3.14)}")
+    println("Mini validateAndFormat(\"  Piseth  \") = ${validateAndFormat("  Piseth  ")}")
 }
